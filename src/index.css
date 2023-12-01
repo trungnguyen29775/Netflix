@@ -1,17 +1,25 @@
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-        'Droid Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: , sans-serif; */
+    font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: black;
+    overflow-x: hidden;
 }
---root {
+@font-face {
+    font-family: 'netflix-font';
+    src: url('/public/font/BebasNeue.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+#root {
     --boder-color: #2d2d2d;
     --red-color: #e50914;
     --white-color: #ffffff;
     --blue-color: #0071eb;
-    --sub-title-color: (255, 255, 255, 0.7);
+    --sub-title-color: #bbbcbb;
+    --button-title-color: rgb(92, 92, 92);
+    --font-color: rgb(229, 229, 229);
 }
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
